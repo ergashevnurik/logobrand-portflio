@@ -202,6 +202,9 @@
                             <div class="card">
                                 <div class="card-head">
                                     <img src="https://images.pexels.com/photos/942317/pexels-photo-942317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                                    <div class="card-head-caption">
+
+                                    </div>
                                 </div>
                                 <div class="card-body">
                                     <h6 class="created-for">Tesus</h6>
@@ -538,6 +541,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!-- Bootstrap 4 JS Link Goes Here -->
+
+
+        <!-- Sidebar JS Goes Here -->
+        <script src="./js/sidebar.js"></script>
+        <!-- Sidebar JS Ends Here -->
 
     </body>
 </html>
