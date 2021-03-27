@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "apercu",sans-serif;
+    background: #f4f7f6;
+}
+
+
+/* Navbar Container-fluid Styling Goes Here */
+.container-fluid {
+}
+
+.container-fluid .row p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-fluid .row h4 {
+    font-size: 16px;
+}
+
+.container-fluid .row .social-icons  a {
+    padding: 12px 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid.top-sticky-navbar {
+        display: none;
+    }
+}
+/* Navbar Container-fluid Styling Goes Here */
+
+
+
+/* Navbar Styling Goes Here */
+nav {
+    background: #f4f7f6;
+    border-bottom: 1px solid #E6EAEA;
+    border-top: 1px solid #E6EAEA;
+}
+
+nav .container .navbar-list-items-container {
+    width: 100%;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items,
+nav .container .navbar-list-items-container .navbar-list-items .navbar-menu,
+nav .container .navbar-list-items-container .navbar-list-items .navbar-menu .navbar-item,
+nav .container .navbar-list-items-container .navbar-list-items .navbar-button-wrapper {
+    display: flex;
+} 
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-item {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-menu .navbar-item.navbar-menu {
+    border-right: 1px solid #E6EAEA;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-menu .navbar-item i.bi-search {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-menu .navbar-item div ul {
+    list-style: none;
+    align-items: center;
+    margin-bottom: unset!important;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-menu .navbar-item div ul li {
+    height: 1px;
+    width: 20px;
+    background: black;
+    margin: 4px;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-button-wrapper .navbar-submit-button {
+    background: #49c5b6;
+    padding: 12px 20px;
+    color: white;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-button-wrapper .navbar-login-button {
+    padding-right: 10px;
+}
+
+nav .container .navbar-list-items-container .navbar-list-items .navbar-item.navbar-logo {
+    padding-left: 75px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    nav .container.navbar-large-width-screen-container {
+        display: none;
+    }
+    nav .container .navbar-list-items-container .navbar-list-items .navbar-item.navbar-logo {
+        padding-left: unset;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    nav .container.navbar-small-width-screen-container {
+        display: none;
+    }
+}
+/* Navbar Styling Goes Here */
+
+
+
+
+/* Hero Section Stylings Goes Here  */
+#hero {
+    width: 100%;
+}
+
+#hero .container-fluid {
+    position: relative;
+}
+
+#hero .container-fluid .row #demo {
+    width: 100%;
+}
+
+#hero .container-fluid .row #demo .carousel-inner {
+    position: relative;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item {
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-button-wrapper {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    z-index: 15;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-button-wrapper a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px 28px;
+    transition: all .3s ease-in-out;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-button-wrapper a.look {
+    border: 2px solid #49c5b6;
+    background: #49c5b6;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 1rem;
+}
+
+#hero .container-fluid .row #demo .carousel-inner .carousel-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero .container-fluid .row #demo .carousel-control-next, .carousel-control-prev {
+    top: unset;
+    width: unset;
+    bottom: 50px;
+}
+
+#hero .container-fluid .row #demo .carousel-control-prev {
+    right: 135px;
+    left: unset;
+}
+
+#hero .container-fluid .row #demo .carousel-control-next {
+    right: 100px;
+}
+
+.carousel-indicators {
+    right: unset;
+    left: 100px;
+    margin-left: unset;
+}
+/* Hero Section Styling Goes Here  */
+
+
+
+
+
+/* Portfolio Section Section Goes Here */
+#portfolio {
+    width: 100%;
+}
+
+#portfolio .container {
+    padding: 20px
+}
+
+#portfolio .container .row .col-md-4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#portfolio .container .row .col-md-4 .card {
+    width: 100%;
+    height: 350px;
+    border: unset;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio .container .row .col-md-4 .card {
+        height: 100%;
+    }
+}
+
+#portfolio .container .row .col-md-4 .card .card-head img {
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+#portfolio .container .row .col-md-4 .card:hover .card-head img {
+    transform: scale(1.03);
+}
+
+#portfolio .container .text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .created-for {
+    font-weight: 600;
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .date-and-author,
+#portfolio .container .row .col-md-4 .card .card-body .author-icon-and-title-and-tips,
+#portfolio .container .row .col-md-4 .card .card-body .author-icon-and-title-and-tips .author-icon-and-title {
+    display: flex;
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .date-and-author h6 {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .author-icon-and-title-and-tips .author-icon-and-title {
+    width: 30px;
+    height: 30px;
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .author-icon-and-title-and-tips .author-icon-and-title h6 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .author-icon-and-title-and-tips .author-icon-and-title img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .author-icon-and-title-and-tips .tips .tips-text {
+    background: #49c5b6;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 50px;
+}
+
+#portfolio .container .row .col-md-4 .card .card-body .author-icon-and-title-and-tips .tips .tips-text:nth-child(2n) {
+    background: red;
+}
+/* Portfolio Section Section Ends Here */
+
+
+
+
+
+/* Footer Styling Goes Here */
+#footer {
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#footer .container .row .header-text-and-events {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer .container .row .list-items-container ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#footer .container .row .list-items-container ul li {
+}
+
+#footer .container .row .list-items-container ul li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#footer .container .row.footer-foot {
+    border-top: 1px solid #E6EAEA;
+    padding-top: 25px;
+}
+
+
+/* Constants Variables Goes Here */
+p {
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: unset;
+    color: inherit;
+}
+/* Constants Variables Goes Here */
