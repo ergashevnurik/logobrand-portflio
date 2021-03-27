@@ -216,6 +216,16 @@ nav .container .navbar-list-items-container .navbar-list-items .navbar-item.navb
     right: 100px;
 }
 
+@media screen and (max-width: 768px) {
+    #hero .container-fluid .row #demo .carousel-control-prev {
+        right: 15px;
+    }
+    
+    #hero .container-fluid .row #demo .carousel-control-next {
+        right: 35px;
+    }
+}
+
 .carousel-indicators {
     right: unset;
     left: 100px;
